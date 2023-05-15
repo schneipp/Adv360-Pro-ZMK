@@ -1,3 +1,27 @@
+macro_rightcurly: macro_rightcurly{
+compatible = "zmk,behavior-macro";
+label = "macro_rightcurly";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp SQT>;
+};
+macro_leftcurly: macro_leftcurly{
+compatible = "zmk,behavior-macro";
+label = "macro_leftcurly";
+#binding-cells = <0>;
+bindings = <&kp RALT>, <&kp BACKSLASH>;
+};
+macro_rightbracket: macro_rightbracket{
+compatible = "zmk,behavior-macro";
+label = "macro_rightbracket";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RIGHT_BRACKET>;
+};
+macro_leftbracket: macro_leftbracket{
+compatible = "zmk,behavior-macro";
+label = "macro_leftbracket";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp LEFT_BRACKET>;
+};
 macro_dquotes: macro_dquotes{
 compatible = "zmk,behavior-macro";
 label = "macro_dquotes";
