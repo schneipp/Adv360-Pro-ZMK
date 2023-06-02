@@ -62,8 +62,8 @@
         layer_fn {
             bindings = <
  &kp F1            &kp F2         &kp F3                 &kp F4                  &kp F5           &kp F6                          &tog 1                                                   &mo 3  &kp F7              &kp F8             &kp F9  &kp F10  &kp F11  &kp F12
- &trans  &kp GREATER_THAN         &kp LT        &kp NON_US_BSLH           &kp BACKSLASH  &kp EXCLAMATION            &kp NON_US_BACKSLASH                                                   &none  &trans       &kp RIGHT_ALT  &kp RIGHT_BRACKET   &trans   &trans   &trans
- &trans         &kp GRAVE  &kp LS(GRAVE)  &mt RALT LEFT_BRACKET  &mt RALT RIGHT_BRACKET           &trans                           &none  &trans  &trans   &none   &none  &trans  &trans   &none  &trans  &kp RA(BACKSLASH)       &kp RA(SQT)   &trans   &trans   &trans
+ &trans  &kp GREATER_THAN         &kp LT        &kp NON_US_BSLH           &kp BACKSLASH  &kp EXCLAMATION            &kp NON_US_BACKSLASH                                                   &none  &trans       &kp RA(LBKT)  &kp RA(RBKT)   &trans   &trans   &trans
+ &trans         &kp GRAVE  &kp LS(GRAVE)  &mt RALT LEFT_BRACKET  &mt RALT RIGHT_BRACKET           &trans                           &none  &trans  &trans   &none   &none  &trans  &trans   &none  &trans  &kp RA(SQT)       &kp RA(BACKSLASH)   &trans   &trans   &trans
  &trans            &trans         &trans                 &trans                  &trans           &trans                           &none   &none  &trans   &none   &none  &trans   &none   &none  &trans                &out             &trans   &trans   &trans   &trans
  &trans            &trans         &trans                 &trans                  &trans                                           &trans  &trans  &trans                  &trans  &trans  &trans                      &trans             &trans   &trans   &trans   &trans
             >;
