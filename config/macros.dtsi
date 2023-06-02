@@ -8,7 +8,7 @@ macro_leftcurly: macro_leftcurly{
 compatible = "zmk,behavior-macro";
 label = "macro_leftcurly";
 #binding-cells = <0>;
-bindings = <&kp RALT>, <&kp BACKSLASH>;
+bindings = <&kp BACKSLASH>;
 };
 macro_rightbracket: macro_rightbracket{
 compatible = "zmk,behavior-macro";
